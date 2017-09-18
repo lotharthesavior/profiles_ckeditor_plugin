@@ -38,14 +38,14 @@ CKEDITOR.dialog.add( 'profilesDialog', function ( editor ) {
 
             if( profiles_options.place == "default" ) {
                 var new_element = "" +
-                    "&nbsp;<a profileof='" + current_value + "' href='mailto:" + current_value + "' style='" + user_style + "'>" +
+                    "&nbsp;<a profileof='" + current_value + "' href='" + current_value + "' style='" + user_style + "'>" +
                     name +
                     "</a>&nbsp;";
 
                 editor.insertHtml(new_element);
             } else {
                 var new_element = "" +
-                    "<a profileof='" + current_value + "' href='mailto:" + current_value + "' style='" + user_style + "'>" +
+                    "<a profileof='" + current_value + "' href='" + current_value + "' style='" + user_style + "'>" +
                     name +
                     "</a>";
 
